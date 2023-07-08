@@ -6,7 +6,7 @@ while True:
 
 count_of_operations = int(input("Сколько операндов? "))
 result_str = ''
-result = 0
+
 for count in range(1, count_of_operations + 1):
     number = int(input(f"Введите число {count}: "))
 
